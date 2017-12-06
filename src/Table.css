@@ -1,0 +1,49 @@
+#root {
+  font-family: 'Open Sans', sans-serif;
+}
+#root .table {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+}
+#root .table .header, #root .table .row {
+  display: flex;
+}
+#root .table .header div, #root .table .row div {
+  flex: 1;
+  padding: 0.2rem 0.4em;
+  border: 1px solid #F1E9E3;
+}
+#root .table .header {
+  background-color: #FBF7F7;
+}
+#root .table .header div {
+  cursor: pointer;
+}
+
+#root .tabs,
+#root .tabs label {
+  display: flex;
+  align-items: center;
+}
+
+#root .btn {
+  border: 1px solid #ECECEC;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+}
+
+#root .btn:nth-child(2) {
+  margin-right: auto;
+}
+
+#root .btn:hover {
+  background-color: #ECECEC;
+  cursor: pointer;
+}
+
+#root .btn.active {
+  background-color: #ECECEC;
+}
